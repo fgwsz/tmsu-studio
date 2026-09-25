@@ -4,6 +4,13 @@
 
 本项目是 **TMSU 的图形前端**。TMSU 是一个独立的第三方命令行工具（Go 编写），提供标签存储和查询引擎。本项目不包含 TMSU 源码，只调用它的 CLI。**不修改任何原始文件**，只读写标签。
 
+## 系统要求
+
+- **Ubuntu 22.04 LTS (Jammy Jellyfish)** — 主要开发与测试环境
+- 其他 Debian 系发行版（Ubuntu 24.04、Linux Mint 21+、Debian 12+）理论可用
+- 桌面环境：GNOME / KDE / Xfce 均可（依赖 xdg-utils）
+- 需要 FUSE 支持（仅 TMSU 的 VFS 功能需要，本项目不依赖）
+
 ---
 
 ## 目录
